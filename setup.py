@@ -58,7 +58,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
-    install_requires=['django-recaptcha-tarteaucitron @ git+https://github.com/omialon/django-recaptcha-tarteaucitron@v2.0.6#egg=django-recaptcha-tarteaucitron',],
+    install_requires=['django-recaptcha-tarteaucitron @ git+https://github.com/omialon/django-recaptcha-tarteaucitron@master#egg=django-recaptcha-tarteaucitron',],
     extras_require={
         'testing': testing_extras,
         'docs': documentation_extras,
